@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        .bg-nav1{
+            background-color: rgb(61, 72, 82);
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 80px;
+           
+        }
+        .btn-lg {
+        	width: 75px;
+        	border-radius: 0px;
+        	margin: 1px;
+        }
+        .searchbar{   
+            border: none;
+            border-radius: 2px;
+            height: 35px;
+            background-color: rgb(222, 227, 235);
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+        .nav-right{
+            padding: 10px
+           
+        }
+        .dashboard{
+            
+            margin-top: 721px;
+            height: 490px;
+            width: 690px;
+            background-color: gray;
+            margin-left:70px;
+            padding: 20px;
+            color:rgb(222, 227, 235);
+            border-radius: 3px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+        }
+        .footer{
+            background-color: white;
+            margin-left: 90px;
+            
+        }
+        .footer p{
+            font-weight: 500;
+            color: rgb(61, 72, 82);
+        }
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-nav1">
+    <div class="row" style="text-align: center;" >
+        <div class="col-lg-4" style="display: flex;">
+        	<img src="C:\Users\Admin\Documents\Reactjs Project/download.png" alt="" style="width: 40px; height: 40px; background-color: white; border-radius: 6px; margin-left: 40px; margin-top: 20px;">
+            <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome ;margin-left: 10px;" class="searchbar"/>
+        </div>
+        <div class="col-lg-8" style="display: flex;">
+            <div class="nav-right">
+            	<i class="fa fa-home" style="font-size:24px"></i>
+            	<p>Home</p>
+            </div>
+            <div class="nav-right" >
+                <i class='fa fa-users' style='font-size:24px'></i>
+            <p style="width: 90px;">My Network</p>
+            </div>
+        <div class="nav-right">
+            <i class="fa fa-briefcase" style="font-size:24px"></i><br>
+            <p>Jobs</p>
+        </div>
+        <div class="nav-right">
+            <i class='fa fa-comment-alt' style='font-size:24px'></i><br>
+            <p>Messaging</p>
+        </div>
+        <div class="nav-right">
+            <i class='fa fa-bell' style='font-size:24px'></i><br>
+                    <p>Notifications</p>
+        </div>
+        <div class="nav-right">
+            <img src="C:\Users\Admin\Documents\Reactjs Project/teddy.jpg" alt="" style="width: 25px; height: 25px; border-radius: 50%;"><br>
+                    Me<i class="fa fa-caret-down" style="font-size:18px;"></i>
+        </div>
+                
+        <div class="nav-right">
+            <i class="fa fa-th" style="font-size:24px"></i><br>
+            Work<i class="fa fa-caret-down" style="font-size:18px; "></i>
+        </div>
+        <div class="nav-right">
+            <a href="#" style="width: 90px; color: #FFFACD;">Try Premium Free for 1 month </a>
+        </div>
+    </div>
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col-md-8" style="margin-top: 30px; margin-left: 70px;" >
+                <img src="C:\Users\Admin\Documents\Reactjs Project/cover.jpg" alt="" style="width:690px; height: 180px; position: absolute;border-radius: 5px; box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);" >
+            
+                
+                <div  style="position: absolute; margin-top: 210px; height: 330px; width: 690px; background-color: white; padding-top: 80px; padding-left: 20px; position: absolute; border-radius: 4px; box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+                    <div class="row" >
+                    	<div class="col-md-6">
+                    		<h3>Lasya Paida</h3>
+                    		<p>Student at Shri Vishnu Engineering College for Women(SVECW)</p>
+                    		<p style="color: grey">India</p>
+                   			<button type="button" class="btn btn-primary">Add profile section <span class="glyphicon glyphicon-triangle-bottom"></span> </button>&nbsp;&nbsp;
+                   			<button type="button" class="btn btn-light" style="border: 1px solid black;">More..</button>
+                   
+                    	</div>
+                    	<div class="col-md-6" style="padding: 10px; padding-left: 70px;">
+                    		<i class='fa fa-graduation-cap' style='font-size:17px; color:slategray'> &nbsp;&nbsp;Student</i><br><br>
+                    		<i class='fa fa-university' style='font-size:18px ; color: slategray;'>&nbsp;&nbsp;Shri Vishnu Engineering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;College for Women</i><br><br>
+                        	<i class='fa fa-address-book' style='font-size:19px ; color: slategray;'>&nbsp;&nbsp;<b>See Contact info</b> </i><br><br>
+                        	<i class='fa fa-users' style='font-size:17px; color:slategray'> &nbsp;See Connections(500+)</i><br><br>
+                    	</div>
+                	</div>
+        		</div>
+                <img src="C:\Users\Admin\Documents\Reactjs Project/teddy.jpg" alt="" style="border-radius: 50%; width: 200px; height: 200px; position: absolute; margin-top: 90px; margin-left: 70px; border: 4px solid rgb(222, 227, 235);">
+        	</div>
+        </div>
+        <div class="metre" style="position: absolute; margin-top: 560px; height: 140px; width: 690px; background-color: white; padding: 20px; margin-left: 70px; border-radius: 3px; box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+            <h3><font color = "grey">Profile Strength: </font><b> Intermediate</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-menu-down"></span></h3>
+            <div class="container">
+            	<button class = "btn btn-primary btn-lg active" type="button">
+           		<button class = "btn btn-primary btn-lg" type="button">
+            	<button class = "btn btn-info btn-lg" type="button">
+            	<button class = "btn btn-primary btn-lg disabled " type="button" width = "75px">
+            	</button>
+            	<i class='fa fa-check-circle' style='font-size:24px'></i>
+            	<button class = "btn btn-success btn-lg disabled" type="button">
+            	<button class = "btn btn-success btn-lg" type="button">
+            	<button class = "btn btn-success btn-lg active" type="button"></button>
+            	<i class='fa fa-star' style='font-size:24px'></i>
+            </div>
+        </div>
+        <div class="dashboard">
+            <h3><font color = "white">Your Dashboard</font></h3>
+            <i>Private to you</i><br><br>
+            <div class="row" style="background-color: white; height: 60px; width: 99%; padding-left: 10px; margin-left: 5px;">
+                <div class="col-md-4"><font
+                	color = "blue" size = "5px">68 </font><p><font color = "grey">Who viewed your profile</font></p></div>
+                <div class="col-md-4"><font
+                	color = "blue" size = "5px">0 </font><p><font color = "grey">Article views</font></p></div>
+                <div class="col-md-4"><font
+                	color = "blue" size = "5px">41 </font><p><font color = "grey">Search Appearances</font></p></div>
+            </div>
+            <div style="margin-top: 10px; padding: 20px;width: 99%; background-color: white; margin-left: 5px; color: black;">
+               
+                <i class='far fa-user' style='font-size:24px'>&nbsp;&nbsp;&nbsp;<b>Carrer Advice</b></i><br><br>
+                <p style="padding-left: 40px;">Participate in the career advice platform: <b style="background-color:lightgrey;">Off</b></p>
+                <p style="color: dimgray; padding-left: 40px;">Get career advice by conversing with other linkedin users who are leaders in their fields</p>
+                <hr style="border: 1px solid darkgray; width: 90%;">
+        
+                <i class="fa fa-briefcase" style="font-size:24px">&nbsp;&nbsp;&nbsp;Career interests</i><br><br>
+                <p style="padding-left: 40px;">Let recruiters know you're open: <b style="background-color: green; color: white;">On</b></p>
+                <p style="color: dimgray; padding-left: 40px;">Choose the types of opportunities you'd like to be connected with</p>
+            </div>
+        </div>
+        <div style="margin-top: 25px; margin-left: 70px; height: 230px; width: 690px; background-color: white; padding: 20px; border-radius: 3px ;box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+            <div class="row">
+                <div class="col-md-11">
+                    <h4>Experience</h4>
+             	</div>
+            	<div class="col-md-1">
+                	<i class="fa fa-plus" style="font-size:17px;"></i>
+                </div>
+         	</div>  
+         	<br>
+            <div class="row">
+                <div class="col-md-1">
+            		<img src="C:\Users\Admin\Documents\Reactjs Project/ui.jpg" alt="" style="height: 40px; width: 40px;">
+       			</div>
+        		<div class="col-md-10">
+           			<p style="position: absolute;"><b>UI Developer</b></p><br>
+           			<p>freelancer</p>
+           			<p> <font color = "grey">May 2018 - Present 10 mos<br>India</font></p>
+          		</div>
+        		<div class="col-md-1">
+            		<span class="glyphicon glyphicon-pencil"></span>
+         		</div>
+        	</div>
+         	<a href="#">Show 3 more experiences&nbsp;<i class="fa fa-angle-down" style="font-size:24px"></i></a>
+        </div>
+        <div style="margin-top: 1px; margin-left: 70px; height: 180px; width: 690px; background-color: white; padding: 20px; border-radius: 3px ;box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+           <div class="row">
+               <div class="col-md-11">
+            		<h4>Education</h4>
+            	</div>
+            	<div class="col-md-1">
+                	<i class="fa fa-plus" style="font-size:17px"></i>
+                </div>
+        	</div>
+        	<br>
+            <div class="row">
+                <div class="col-md-1">
+            		<img src="C:\Users\Admin\Documents\Reactjs Project/vishnu.jpg" alt="" style="height: 40px; width: 40px;">
+         		</div>
+         	<div class="col-md-10">
+            	<p style="position: absolute;"><b>Shri Vishnu Engineering College for Women(SVECW)</b></p><br>
+            	<p><font color="grey">Educational Institution<br>2018-2022</font></p>
+         	</div>
+        	<div class="col-md-1">
+        		<span class="glyphicon glyphicon-pencil"></span>
+          	</div>
+ 
+          </div>
+          <br>
+         </div>
+         <div style="margin-top: 1px; margin-left: 70px; height: 220px; width: 690px; background-color: white; padding: 20px; border-radius: 3px ;box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+            <div class="row">
+                <div class="col-md-11">
+             <h4>Licenses & Certifications</h4>
+             </div>
+             <div class="col-md-1">
+                 <i class="fa fa-plus" style="font-size:17px"></i>
+                 </div>
+         </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1">
+            <img src="C:\Users\Admin\Documents\Reactjs Project/wd.jpg" alt="" style="height: 40px; width: 40px;">
+         </div>
+         <div class="col-md-10">
+            <p style="position: absolute;"><b>Web Development</b></p><br>
+            <p>Bootcamp</p>
+            <br>
+            <p><font color = "blue"><b>See Credential</b></font></p>
+         </div>
+         <div class="col-md-1">
+             <span class="glyphicon glyphicon-pencil"></span>
+          </div>
+ 
+          </div>
+          <a href="#">Show 3 more Certifications&nbsp;<i class="fa fa-angle-down" style="font-size:24px"></i></a>
+        </div>
+        <div style="margin-top: 25px; margin-left: 70px; height: 240px; width: 690px; background-color: white; padding: 20px; border-radius: 3px ;box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>Skills & Endorsements</h4>
+             	</div>
+            <div class="col-md-3">
+                <p>Add a new skill&nbsp;&nbsp;<span class="glyphicon glyphicon-pencil"></span></p>
+            </div>
+        </div>  
+        <div class="row">
+        	<div class="col-md-1">
+        		<h4><b>Python</b></h4>
+        	</div>
+        	<div class="col-md-11"></div>
+        </div>
+        <br>
+        <div class="row">
+        	<div class="col-md-1">
+            	<img src="C:\Users\Admin\Documents\Reactjs Project/python.jpg" alt="" style="height: 40px; width: 40px;">
+        	</div>
+        	<div class="col-md-11">
+                <p><font color = "grey">Learned at SVECW</font></p>
+            </div>
+        </div>
+       
+        <hr style="border: 1px solid gray;">
+    
+         <p align="center"><font color="blue"><b>Show more<span class="glyphicon glyphicon-menu-down"></span></b></font></p>
+        </div>
+        <div class="accomplish" style="margin-top: 25px; margin-left: 70px; height: 580px; width: 690px; background-color: white; padding: 30px; border-radius: 3px ;box-shadow: 0 6px 8px 0 rgba(87, 83, 83, 0.6), 0 6px 20px 0 rgba(212, 206, 206, 0.59);">
+            <h4><b>Accomplishments</b></h4>
+            <div class="row">
+                <div class="col-md-1">
+                    <h2 align="right"><font color="blue">8</font></h2>
+                </div>
+                <div class="col-md-10">
+                    <h5 align="left"><b><font color="blue"> Courses</font></b></h5>
+                    <p> HTML, CSS, Bootstrap, Javascript, DBMS, Python, C, C++</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-angle-down" style="font-size:24px"></i>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1">
+                    <h2 align="right"><font color="blue">1</font></h2>
+                </div>
+                <div class="col-md-10">
+                    <h5 align="left"><b><font color="blue">Organizations</font></b></h5>
+                    <p>Shri Vishnu Engineering College for Women</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-angle-down" style="font-size:24px"></i>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1">
+                    <h2 align="right"><font color="blue">2</font></h2>
+                </div>
+                <div class="col-md-10">
+                    <h5 align="left"><b><font color="blue">Projects</font></b></h5>
+                    <p>Miniplex Ticket Booking Online, Web Development Projects</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-angle-down" style="font-size:24px"></i>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1">
+                    <h2 align="right"><font color="blue">4</font></h2>
+                </div>
+                <div class="col-md-10">
+                    <h5 align="left"><b><font color="blue">Languages</font></b></h5>
+                    <p>English, Telugu, Hindi, French</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-angle-down" style="font-size:24px"></i>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-1">
+                    <h2 align="right"><font color="blue">1</font></h2>
+                </div>
+                <div class="col-md-10">
+                    <h5 align="left"><b><font color="blue">Publication</font></b></h5>
+                    <p>My portfolio</p>
+                </div>
+                <div class="col-md-1">
+                    <i class="fa fa-angle-down" style="font-size:24px"></i>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br><br><br>
+        <hr style="border: 1px solid gray; ">
+        <div class="footer" >
+            <br><br>
+            <h1><b>Linked</b><img src="C:\Users\Admin\Documents\Reactjs Project/download.png" alt="" style="width: 40px; height: 40px; background-color: white; border-radius: 6px; "></h1><br>
+            <div class="row">
+                <div class="col-md-2">
+                     <p>About</p>
+                     <p>Careers</p>
+                     <p>Advertising</p>
+                     <p>Mobile</p>
+                </div>
+                <div class="col-md-2">
+                     <p>Talent Solutions</p>
+                     <p>Marketing Solutions</p>
+                     <p>Sales Solutions</p>
+                     <p>Small Bussiness</p>
+                </div>
+                <div class="col-md-2">
+                     <p>Community Guidelines</p>
+                     <p>Privacy & Terms</p>
+                     <p>Send Feedback</p>
+                     <p>Safety center</p>
+                </div>
+                <div class="col-md-3">
+                	<span class="glyphicon glyphicon-question-sign"></span>&nbsp;<b>Questions?</b><br>
+                    <p>Visit our help center.</p>
+                    <span class="glyphicon glyphicon-cog"></span>&nbsp;<b>Manage your account and privacy.</b><br>
+                    <p>Go to your Settings.</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Select Language</h6>
+                    <select name="" id="">
+                        
+                        <option value="">English (English)</option>
+                    </select>
+               </div>
+            </div>
+            <br>
+            <h6>Linkedin Corporation&nbsp;<span class="glyphicon glyphicon-copyright-mark"></span>&nbsp;2020</h6>
+        </div>
+    </main>
+</body>
+</html>
